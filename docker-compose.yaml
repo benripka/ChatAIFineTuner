@@ -1,0 +1,46 @@
+version: "3"
+
+services:
+  frontend:
+    build:
+      context: frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+
+  api:
+    build:
+      context: api
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+      - rabbitmq
+    environment:
+      DATABASE_URI: "postgresql://user:password@db:5432/database"
+      RABBITMQ_URI: "amqp://rabbitmq:rabbitmq@rabbitmq:5672/"
+
+  db:
+    image: postgres:12.5
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: database
+
+  rabbitmq:
+    image: rabbitmq:3.8.9-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: rabbitmq
+      RABBITMQ_DEFAULT_PASS: rabbitmq
+
+  consumer:
+    build:
+      context: rabbitmq_consumer
+    depends_on:
+      - rabbitmq

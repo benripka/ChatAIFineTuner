@@ -1,0 +1,216 @@
+BulletLTE-NA2
+BulletLTE-NA2 - 4G/LTE Ethernet/Serial/USB Gateway
+
+4G/LTE
+Firewall / ACL / VPN
+Standalone GPS
+10/100 Ethernet
+Programmable I/O
+
+RS232 Serial Port
+
+Features
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Ultra Fast 4G/LTE Operation
+Up to 150 Mbps Downlink / 50 Mbps Uplink Over Air
+IP Pass-through Mode
+Data Usage Alerts (Email, SMS)
+Firewall with ACL Security, DMZ & Port Forwarding
+2x Programmable Analog/Digital Inputs or 2 Digital Outputs
+IPSec, GRE / VPN Tunneling
+RS232 Serial Data Port
+10/100 Ethernet (PoE)
+USB OTG Port (Host, Console, NDIS, Serial Data)
+Standalone GPS (TCP Server, UDP Reporting, SMTP)
+SMS Support: Ethernet (Telnet), Alerts
+Wide Operating Temperature (-40°C to +85°C)
+User interface via telnet or web browser
+Microhard NMS Support
+
+◆
+
+4G/LTE
+
+◆
+
+RS232 Serial
+
+◆
+
+SMS
+
+◆
+
+Ethernet
+
+◆
+
+Firewall
+
+BulletLTE-NA2
+
+Specifications
+
+Supported Bands
+
+LTE FDD: B2,B4,B5,B12,B13,B14,B66,B71
+WCDMA: B2,B4,B5
+
+Cellular Data Features*
+
+LTE FDD: Up to 150 Mbps DL, 50 Mbps UL
+LTE TDD: Up to 130 Mbps DL, 35 Mbps UL
+DC-HSPA+: Up to 42 Mbps DL, 5.7 Mbps UL
+WCDMA: Up to 384 Kbps DL, 384 Kbps UL Management
+
+*Module Standalone Laboratory Performance
+
+Serial Interface
+
+RS232 Serial Data Port
+
+Serial Baud Rate
+
+300bps to 921kbps
+
+Serial Port Server
+
+Extensive Serial Port Support: TCP Server/
+Client / UDP Server/Client / Modbus / SMTP
+
+Ethernet
+
+Firewall
+
+NAT, NAT-T VPN tunneling, Port forwarding, VPN/GRE pass-through;
+Access control lists (IP/MAC filtering),
+Data origin / integrity Authentication,
+DMZ
+Telnet, WebUI, SNMP V1/2/3, Wireless Upgrade (HTTP/FTP), RADIUS
+authentication, AT Command Interface
+(Serial/Telnet), Microhard NMS Support, Data Usage Alerts, SSH
+
+Diagnostics
+
+RSSI, Ec/No, Voltage, Temperature,
+Remote diagnostics, Watchdog, UDP
+Event Reporting, SMS Alerts, Netflow
+
+10/100 BaseT, Auto - MDI/X IEEE 802.3
+
+Input Voltage
+
+I/O
+
+2x Programmable Analog/Digital Inputs
+or 2x Digital Outputs
+
+7 - 30VDC or Passive PoE on LAN
+Reverse polarity protection
+
+Connectors:
+
+USB (OTG)
+
+USB 2.0
+USB Console Port
+USB to Serial Data Routing
+USB to Ethernet Data Routing (NDIS)
+USB OTG (Host)
+
+GPS
+
+Antenna 3x SMA Female (Cell, Cell Div, GPS)
+Data RJ-45 (Ethernet)
+4 PIN Interlock (Vin, I/O))
+DB9 RS232
+USB Micro-AB
+SIM 1.8 / 3.0V
+
+TCP Server, UDP/Email Reporting, GpsGate Environmental
+Operating Temperature -40°C to +85°C
+-40°F to +185°F
+Navigation Update Rate Up to 5 Hz
+Humidity 5-95%, non-condensing
+Accuracy Position:
+2.5 m CEP
+SBAS:
+2.0 m CEP
+Weight
+Approx. 150 grams
+Acquisition Cold Starts:
+27 seconds
+Aided Started: 4 seconds
+Hot Starts:
+1 seconds
+Dimensions
+Approx. 1.75” x 3.25” x 1.0”
+Sensitivity Tracking :
+-159 dBm
+(45mm x 85mm x 25mm)
+(Active/Passive Antenna)
+Cold Starts:
+-147 dBm
+Hot Starts:
+-156 dBm
+Approvals
+FCC/IC
+PTCRB
+
+SMS
+
+SMS to/from Ethernet via Telnet
+SMS Alerts
+SMS Remote Reboots
+
+Carrier Connection
+
+Dial on Demand, PAP, CHAP,
+Idle Time, ICMP Keep Alive, DDNS
+IP pass-through, Wireless Connection
+Timeout.
+
+Network Protocols
+
+TCP, UDP, TCP/IP, ARP, ICMP, DHCP,
+HTTP, SNMP, FTP, DNS, Serial over IP,
+Modbus Slave (TCP/Serial)
+
+Security
+
+VPN, IPSec with IKE/ISAKMP; Multiple tunnel support (16); 3DES and up to 256-bit
+AES Encryption, Site to Site Tunneling
+L2TP, GRE, HTTPS, RADIUS
+
+Contact Information
+Microhard Systems Inc.
+150 Country Hills Landing N.W.
+Calgary, AB, Canada T3K 5P3
+Email: info@microhardcorp.com
+Tel:
+(403) 248-0028
+Fax: (403) 248-2762
+Rev 1.0.1
+
+Order Options
+Model BulletLTE-NA2
+
+Copyright 2021 Microhard Systems Inc.
+Specifications subject to change without notice.
+
+
